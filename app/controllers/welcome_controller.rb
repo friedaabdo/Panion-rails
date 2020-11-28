@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
     def index
-        render json: { status: 200, message: "Flashcards API" }
+        render json: { status: 200, message: "Panion API" }
       end
 end
